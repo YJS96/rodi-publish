@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"
 
 export default function Registration() {
   return (
@@ -24,7 +25,7 @@ export default function Registration() {
               <div className="my_achieve">
                 <div className="top_area">
                   <div className="tit">
-                    <img src="/images/icon-color-rocket.svg" />
+                    <Image alt="" width="400" height="400" src="/images/icon-color-rocket.svg" />
                     <span>나의 목표</span>
                   </div>
                   <div className="criteria_group">
@@ -342,7 +343,7 @@ export default function Registration() {
               <div className="my_ranking">
                 <div className="top_area">
                   <div className="tit">
-                    <img src="/images/icon-color-badge.svg" />
+                    <Image alt="" width="400" height="400" src="/images/icon-color-badge.svg" />
                     <span>나의 순위</span>
                   </div>
                 </div>
@@ -354,14 +355,14 @@ export default function Registration() {
                     </div>
                     <div className="top_ranker">
                       <p>
-                        <img
+                        <Image alt="" width="400" height="400"
                           src="/images/ranker_1.png"
                           className="ranker_icon"
                         />
                         <span>lan***3</span>
                       </p>
                       <p>
-                        <img
+                        <Image alt="" width="400" height="400"
                           src="/images/ranker_2.svg"
                           className="ranker_icon"
                         />
@@ -376,14 +377,14 @@ export default function Registration() {
                     </div>
                     <div className="top_ranker">
                       <p>
-                        <img
+                        <Image alt="" width="400" height="400"
                           src="/images/ranker_1.png"
                           className="ranker_icon"
                         />
                         <span>lan***3</span>
                       </p>
                       <p>
-                        <img
+                        <Image alt="" width="400" height="400"
                           src="/images/ranker_2.svg"
                           className="ranker_icon"
                         />
@@ -421,7 +422,7 @@ export default function Registration() {
                     <div className="btn_group small">
                       <button className="fill_white">
                         <i>
-                          <img src="/images/icon-20-delete.svg" />
+                          <Image alt="" width="400" height="400" src="/images/icon-20-delete.svg" />
                         </i>
                         삭제
                       </button>
@@ -447,14 +448,14 @@ export default function Registration() {
                           </div>
                         </td>
                         <td className="option_img">
-                          <img src="/images/eximg_01.png" />
+                          <Image alt="" width="400" height="400" src="/images/eximg_01.png" />
                         </td>
                         <td className="al_left tit pl_30">
                           아이스 트레이 Type A
                         </td>
                         <td className="link pl_30">
                           <a href="#">
-                            <img src="/images/taobao_logo.svg" />
+                            <Image alt="" width="400" height="400" src="/images/taobao_logo.svg" />
                           </a>
                         </td>
                         <td className="openmarket pl_30">
@@ -488,7 +489,7 @@ export default function Registration() {
                         <td className="memo pl_30">
                           <div className="btn_group round_small">
                             <button>
-                              <img src="/images/icon-16-pen.svg" />
+                              <Image alt="" width="400" height="400" src="/images/icon-16-pen.svg" />
                               메모
                             </button>
                           </div>
@@ -501,14 +502,14 @@ export default function Registration() {
                           </div>
                         </td>
                         <td className="option_img">
-                          <img src="/images/eximg_01.png" />
+                          <Image alt="" width="400" height="400" src="/images/eximg_01.png" />
                         </td>
                         <td className="al_left tit pl_30">
                           아이스 트레이 Type A
                         </td>
                         <td className="link pl_30">
                           <a href="#">
-                            <img src="/images/taobao_logo.svg" />
+                            <Image alt="" width="400" height="400" src="/images/taobao_logo.svg" />
                           </a>
                         </td>
                         <td className="openmarket pl_30">
@@ -542,7 +543,7 @@ export default function Registration() {
                         <td className="memo pl_30">
                           <div className="btn_group round_small">
                             <button>
-                              <img src="/images/icon-16-pen.svg" />
+                              <Image alt="" width="400" height="400" src="/images/icon-16-pen.svg" />
                               메모
                             </button>
                           </div>
@@ -555,14 +556,14 @@ export default function Registration() {
                           </div>
                         </td>
                         <td className="option_img">
-                          <img src="/images/eximg_01.png" />
+                          <Image alt="" width="400" height="400" src="/images/eximg_01.png" />
                         </td>
                         <td className="al_left tit pl_30">
                           아이스 트레이 Type A
                         </td>
                         <td className="link pl_30">
                           <a href="#">
-                            <img src="/images/taobao_logo.svg" />
+                            <Image alt="" width="400" height="400" src="/images/taobao_logo.svg" />
                           </a>
                         </td>
                         <td className="openmarket pl_30">
@@ -596,7 +597,7 @@ export default function Registration() {
                         <td className="memo pl_30">
                           <div className="btn_group round_small">
                             <button>
-                              <img src="/images/icon-16-pen.svg" />
+                              <Image alt="" width="400" height="400" src="/images/icon-16-pen.svg" />
                               메모
                             </button>
                           </div>
@@ -609,14 +610,14 @@ export default function Registration() {
                           </div>
                         </td>
                         <td className="option_img">
-                          <img src="/images/eximg_01.png" />
+                          <Image alt="" width="400" height="400" src="/images/eximg_01.png" />
                         </td>
                         <td className="al_left tit pl_30">
                           아이스 트레이 Type A
                         </td>
                         <td className="link pl_30">
                           <a href="#">
-                            <img src="/images/taobao_logo.svg" />
+                            <Image alt="" width="400" height="400" src="/images/taobao_logo.svg" />
                           </a>
                         </td>
                         <td className="openmarket pl_30">
@@ -650,7 +651,7 @@ export default function Registration() {
                         <td className="memo pl_30">
                           <div className="btn_group round_small">
                             <button>
-                              <img src="/images/icon-16-pen.svg" />
+                              <Image alt="" width="400" height="400" src="/images/icon-16-pen.svg" />
                               메모
                             </button>
                           </div>
@@ -663,14 +664,14 @@ export default function Registration() {
                           </div>
                         </td>
                         <td className="option_img">
-                          <img src="/images/eximg_01.png" />
+                          <Image alt="" width="400" height="400" src="/images/eximg_01.png" />
                         </td>
                         <td className="al_left tit pl_30">
                           아이스 트레이 Type A
                         </td>
                         <td className="link pl_30">
                           <a href="#">
-                            <img src="/images/taobao_logo.svg" />
+                            <Image alt="" width="400" height="400" src="/images/taobao_logo.svg" />
                           </a>
                         </td>
                         <td className="openmarket pl_30">
@@ -704,7 +705,7 @@ export default function Registration() {
                         <td className="memo pl_30">
                           <div className="btn_group round_small">
                             <button>
-                              <img src="/images/icon-16-pen.svg" />
+                              <Image alt="" width="400" height="400" src="/images/icon-16-pen.svg" />
                               메모
                             </button>
                           </div>
@@ -717,14 +718,14 @@ export default function Registration() {
                           </div>
                         </td>
                         <td className="option_img">
-                          <img src="/images/eximg_01.png" />
+                          <Image alt="" width="400" height="400" src="/images/eximg_01.png" />
                         </td>
                         <td className="al_left tit pl_30">
                           아이스 트레이 Type A
                         </td>
                         <td className="link pl_30">
                           <a href="#">
-                            <img src="/images/taobao_logo.svg" />
+                            <Image alt="" width="400" height="400" src="/images/taobao_logo.svg" />
                           </a>
                         </td>
                         <td className="openmarket pl_30">
@@ -758,7 +759,7 @@ export default function Registration() {
                         <td className="memo pl_30">
                           <div className="btn_group round_small">
                             <button>
-                              <img src="/images/icon-16-pen.svg" />
+                              <Image alt="" width="400" height="400" src="/images/icon-16-pen.svg" />
                               메모
                             </button>
                           </div>

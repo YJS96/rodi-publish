@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 
 export default function OrderList() {
   return (
@@ -57,56 +58,56 @@ export default function OrderList() {
 								<div className="hover_pop">
 									<div className="box">
 										<div>
-											<img src="/images/naver.svg" />
+											<Image alt="" width="400" height="400" src="/images/naver.svg" />
 											<div className="txt_group">
 												<span>스마트스토어</span>
 												<p>1,932,000원</p>
 											</div>
 										</div>
 										<div>
-											<img src="/images/coupang.svg" />
+											<Image alt="" width="400" height="400" src="/images/coupang.svg" />
 											<div className="txt_group">
 												<span>쿠팡</span>
 												<p>18,031,040원</p>
 											</div>
 										</div>
 										<div>
-											<img src="/images/_gmarket.svg" />
+											<Image alt="" width="400" height="400" src="/images/_gmarket.svg" />
 											<div className="txt_group">
 												<span>G마켓</span>
 												<p>0원</p>
 											</div>
 										</div>
 										<div>
-											<img src="/images/auction.svg" />
+											<Image alt="" width="400" height="400" src="/images/auction.svg" />
 											<div className="txt_group">
 												<span>옥션</span>
 												<p>90,700원</p>
 											</div>
 										</div>
 										<div>
-											<img src="/images/11st.svg" />
+											<Image alt="" width="400" height="400" src="/images/11st.svg" />
 											<div className="txt_group">
 												<span>11번가 글로벌</span>
 												<p>4,952,090원</p>
 											</div>
 										</div>
 										<div>
-											<img src="/images/11st.svg" />
+											<Image alt="" width="400" height="400" src="/images/11st.svg" />
 											<div className="txt_group">
 												<span>11번가 국내</span>
 												<p>92,500원</p>
 											</div>
 										</div>
 										<div>
-											<img src="/images/INTERPARK.svg" />
+											<Image alt="" width="400" height="400" src="/images/INTERPARK.svg" />
 											<div className="txt_group">
 												<span>인터파크</span>
 												<p>42,000원</p>
 											</div>
 										</div>
 										<div>
-											<img src="/images/lotteon.svg" />
+											<Image alt="" width="400" height="400" src="/images/lotteon.svg" />
 											<div className="txt_group">
 												<span>롯데온</span>
 												<p>0원</p>
@@ -149,8 +150,8 @@ export default function OrderList() {
 							</div>
 						</div>
 						<div className="btn_group small">
-							<button className="fill_main"><i><img src="/images/icon-16-plus-white.svg" /></i>매입 내역 추가</button>
-							<button className="fill_main" ><i><img src="/images/icon-20-download-white.svg" /></i>소명 자료 다운</button>
+							<button className="fill_main"><i><Image alt="" width="400" height="400" src="/images/icon-16-plus-white.svg" /></i>매입 내역 추가</button>
+							<button className="fill_main" ><i><Image alt="" width="400" height="400" src="/images/icon-20-download-white.svg" /></i>소명 자료 다운</button>
 						</div>
 					</div>
 					<div className="list_area">
@@ -183,12 +184,12 @@ export default function OrderList() {
 						</div>
 						<div className="btn_group round_small">
 							<div className="left">
-								<button><img src="/images/icon-16-truck-black.svg" />배송중 처리</button>
-								<button><img src="/images/icon-16-excel-black.svg" />주문상세 엑셀다운</button>
+								<button><Image alt="" width="400" height="400" src="/images/icon-16-truck-black.svg" />배송중 처리</button>
+								<button><Image alt="" width="400" height="400" src="/images/icon-16-excel-black.svg" />주문상세 엑셀다운</button>
 							</div>
 							<div className="right">
 								<span className="time">업데이트 시간 : 23/08/08 15:27 </span>
-								<button><img src="/images/icon-16-replay-black.svg" />새로고침</button>
+								<button><Image alt="" width="400" height="400" src="/images/icon-16-replay-black.svg" />새로고침</button>
 							</div>
 						</div>
 						<div className="table_list_group">

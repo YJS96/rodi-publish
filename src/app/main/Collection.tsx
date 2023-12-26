@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
 
 export default function Collection() {
   return (
@@ -16,13 +17,13 @@ export default function Collection() {
 						</div>
 						<div className="btn_group">
 							<button className="fill_main">
-								<i><img src="/images/icon-20-link.svg" /></i>URL 수집
+								<i><Image alt="" width="400" height="400" src="/images/icon-20-link.svg" /></i>URL 수집
 							</button>
 							<button className="fill_main">
-								<i><img src="/images/icon-20-excel.svg" /></i>엑셀 수집
+								<i><Image alt="" width="400" height="400" src="/images/icon-20-excel.svg" /></i>엑셀 수집
 							</button>
 							<button className="line_black">
-								<i><img src="/images/icon-20-download.svg" /></i>엑셀 샘플 다운로드
+								<i><Image alt="" width="400" height="400" src="/images/icon-20-download.svg" /></i>엑셀 샘플 다운로드
 							</button>
 						</div>
 					</div>
@@ -42,8 +43,8 @@ export default function Collection() {
 								<span className="value">16개 선택</span>
 							</div>
 							<div className="btn_group small">
-								<button className="fill_white"><i><img src="/images/icon-20-delete.svg" /></i>삭제</button>
-								<button className="fill_black"><i><img src="/images/icon-20-upload-cloud.svg" /></i>업로드</button>
+								<button className="fill_white"><i><Image alt="" width="400" height="400" src="/images/icon-20-delete.svg" /></i>삭제</button>
+								<button className="fill_black"><i><Image alt="" width="400" height="400" src="/images/icon-20-upload-cloud.svg" /></i>업로드</button>
 							</div>
 						</div>
 					</div>
@@ -52,11 +53,11 @@ export default function Collection() {
 							<li>
 								<a href="#">
 									<div className="thumbnail_group">
-										<img src="/images/eximg_01.png" className="img" />
+										<Image alt="" width="400" height="400" src="/images/eximg_01.png" className="img" />
 										<div className="state_tag">
-											{/* <!--<div className="upload"><img src="/images/icon-20-roundcheckgreen.svg" />업로드준비</div>-->
-											<!--<div className="error"><img src="/images/icon-12-information.svg" />에러 수정 필요</div>--> */}
-											<div className="ing"><img src="/images/icon-12-emergency.svg" />편집 대기 중</div>
+											{/* <!--<div className="upload"><Image alt="" width="400" height="400" src="/images/icon-20-roundcheckgreen.svg" />업로드준비</div>-->
+											<!--<div className="error"><Image alt="" width="400" height="400" src="/images/icon-12-information.svg" />에러 수정 필요</div>--> */}
+											<div className="ing"><Image alt="" width="400" height="400" src="/images/icon-12-emergency.svg" />편집 대기 중</div>
 										</div>
 									</div>
 									<div className="info_group">
@@ -72,11 +73,11 @@ export default function Collection() {
 							<li>
 								<a href="#">
 									<div className="thumbnail_group">
-                  <img src="/images/eximg_01.png" className="img" />
+									<Image alt="" width="400" height="400" src="/images/eximg_01.png" className="img" />
 										<div className="state_tag">
-											{/* <!--<div className="upload"><img src="/images/icon-20-roundcheckgreen.svg" />업로드준비</div>-->
-											<!--<div className="error"><img src="/images/icon-12-information.svg" />에러 수정 필요</div>--> */}
-											<div className="ing"><img src="/images/icon-12-emergency.svg" />편집 대기 중</div>
+											{/* <!--<div className="upload"><Image alt="" width="400" height="400" src="/images/icon-20-roundcheckgreen.svg" />업로드준비</div>-->
+											<!--<div className="error"><Image alt="" width="400" height="400" src="/images/icon-12-information.svg" />에러 수정 필요</div>--> */}
+											<div className="ing"><Image alt="" width="400" height="400" src="/images/icon-12-emergency.svg" />편집 대기 중</div>
 										</div>
 									</div>
 									<div className="info_group">
@@ -92,11 +93,11 @@ export default function Collection() {
 							<li>
 								<a href="#">
 									<div className="thumbnail_group">
-										<img src="/images/eximg_01.png" className="img" />
+									<Image alt="" width="400" height="400" src="/images/eximg_01.png" className="img" />
 										<div className="state_tag">
-											{/* <!--<div className="upload"><img src="/images/icon-20-roundcheckgreen.svg" />업로드준비</div>--> */}
-											<div className="error"><img src="/images/icon-12-information.svg" />에러 수정 필요</div>
-											{/* <!--<div className="ing"><img src="/images/icon-12-emergency.svg" />편집 대기 중</div>--> */}
+											{/* <!--<div className="upload"><Image alt="" width="400" height="400" src="/images/icon-20-roundcheckgreen.svg" />업로드준비</div>--> */}
+											<div className="error"><Image alt="" width="400" height="400" src="/images/icon-12-information.svg" />에러 수정 필요</div>
+											{/* <!--<div className="ing"><Image alt="" width="400" height="400" src="/images/icon-12-emergency.svg" />편집 대기 중</div>--> */}
 										</div>
 									</div>
 									<div className="info_group">

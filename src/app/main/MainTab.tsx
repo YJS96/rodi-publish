@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image"
 
 
 export default function MainTab() {
@@ -133,11 +133,11 @@ export default function MainTab() {
                     <span className="tit">사업자 인증</span>
                     <div className="value_group">
                       <span className="certified_tag">
-                        <img src="images/shield-fill.svg" />
+                        <Image alt="" width="400" height="400" src="images/shield-fill.svg" />
                         인증
                       </span>
                       <span className="uncertified_tag">
-                        <img src="images/unshield-fill.svg" />
+                        <Image alt="" width="400" height="400" src="images/unshield-fill.svg" />
                         미인증
                       </span>
                       <div className="info">
@@ -276,7 +276,7 @@ export default function MainTab() {
                       사용가이드
                     </p>
                   </div>
-                  <img src="images/illu_list.svg" />
+                  <Image alt="" width="400" height="400" src="images/illu_list.svg" />
                 </a>
                 <a href="#" className="qa">
                   <div className="text_group">
@@ -287,7 +287,7 @@ export default function MainTab() {
                       Q&A
                     </p>
                   </div>
-                  <img src="images/illu_qa.svg" />
+                  <Image alt="" width="400" height="400" src="images/illu_qa.svg" />
                 </a>
                 <a href="#" className="call">
                   <div className="text_group">
@@ -298,7 +298,7 @@ export default function MainTab() {
                       고객센터
                     </p>
                   </div>
-                  <img src="images/illu_cs.svg" />
+                  <Image alt="" width="400" height="400" src="images/illu_cs.svg" />
                 </a>
               </div>
             </section>

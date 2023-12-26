@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 
 export default function Settings() {
   return (
@@ -65,7 +66,7 @@ export default function Settings() {
 								<div className="box_section_tit btn_on">
 									<p>출고지/반품교환지</p>
 									<div className="btn_group round_small">
-										<button className="line_gray_white"  ><img src="/images/icon-16-duo.svg" />주소록</button>
+										<button className="line_gray_white"  ><Image alt="" width="400" height="400" src="/images/icon-16-duo.svg" />주소록</button>
 									</div>
 								</div>
 								<div className="address_list_group">
@@ -228,7 +229,7 @@ export default function Settings() {
 											</div>
 											<span className="under_txt">위안가X환율</span>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-close.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-close.svg" /></i>
 										<div className="input_group w_125px">
 											<div className="text_group small">
 												<label>소싱 수수료</label>
@@ -237,7 +238,7 @@ export default function Settings() {
 											</div>
 											<span className="under_txt">브랜드수수료+카드수수료</span>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-plus.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-plus.svg" /></i>
 										<div className="input_group w_85px">
 											<div className="text_group small">
 												<label>해외 배송비</label>
@@ -245,21 +246,21 @@ export default function Settings() {
 												<input type="text" placeholder="0" value="5,000" />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-duo.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-duo.svg" /></i>
 										<div className="input_group w_80px">
 											<div className="text_group small">
 												<label>기본 구매가</label>
 												<input type="text" className="al_right" placeholder="0" value="35,375" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon straight"><img src="/images/icon-straight.svg" /></i>
+										<i className="priceformula_icon straight"><Image alt="" width="400" height="400" src="/images/icon-straight.svg" /></i>
 										<div className="input_group w_80px">
 											<div className="text_group small">
 												<label>기본 구매가</label>
 												<input type="text" className="al_right" placeholder="0" value="35,375" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-slash.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-slash.svg" /></i>
 										<div className="input_group w_125px">
 											<div className="text_group small">
 												<label>마진율</label>
@@ -267,7 +268,7 @@ export default function Settings() {
 												<input type="text" placeholder="0" value="0.7" />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-plus.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-plus.svg" /></i>
 										<div className="input_group w_120px">
 											<div className="text_group small">
 												<label>기본마진</label>
@@ -275,7 +276,7 @@ export default function Settings() {
 												<input type="text" placeholder="0" value="0" />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-duo.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-duo.svg" /></i>
 										<div className="input_group w_80px mr_6">
 											<div className="text_group small">
 												<label>1차 판매가</label>
@@ -302,35 +303,35 @@ export default function Settings() {
 												<input type="text" className="al_right" placeholder="0" value="30,000" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-plus.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-plus.svg" /></i>
 										<div className="input_group w_125px">
 											<div className="text_group small">
 												<label>총 마진</label>
 												<input type="text" className="al_right" placeholder="0" value="30,000" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-plus.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-plus.svg" /></i>
 										<div className="input_group w_85px">
 											<div className="text_group small">
 												<label>마진부가세</label>
 												<input type="text" className="al_right" placeholder="0" value="30,000" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-duo.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-duo.svg" /></i>
 										<div className="input_group w_80px">
 											<div className="text_group small">
 												<label>2차 판매가</label>
 												<input type="text" className="al_right" placeholder="0" value="35,375" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon straight"><img src="/images/icon-straight.svg" /></i>
+										<i className="priceformula_icon straight"><Image alt="" width="400" height="400" src="/images/icon-straight.svg" /></i>
 										<div className="input_group w_80px">
 											<div className="text_group small">
 												<label>2차 판매가</label>
 												<input type="text" className="al_right" placeholder="0" value="35,375" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-slash.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-slash.svg" /></i>
 										<div className="input_group w_125px">
 											<div className="text_group small">
 												<label>오픈마켓 수수료</label>
@@ -338,7 +339,7 @@ export default function Settings() {
 												<input type="text" placeholder="0" value="0.7" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon"><img src="/images/icon-16-duo.svg" /></i>
+										<i className="priceformula_icon"><Image alt="" width="400" height="400" src="/images/icon-16-duo.svg" /></i>
 										<div className="input_group w_120px">
 											<div className="text_group small">
 												<label>3차 판매가</label>
@@ -353,7 +354,7 @@ export default function Settings() {
 												<input type="text" className="al_right" placeholder="0" value="35,375" readOnly />
 											</div>
 										</div>
-										<i className="priceformula_icon straight"><img src="/images/icon-straight.svg" /></i>
+										<i className="priceformula_icon straight"><Image alt="" width="400" height="400" src="/images/icon-straight.svg" /></i>
 										<div className="input_group w_140px">
 											<div className="selectbox_group small">
 												<label>단위올림</label>
@@ -364,7 +365,7 @@ export default function Settings() {
 												</select>
 											</div>
 										</div>
-										<i className="priceformula_icon straight"><img src="/images/icon-straight.svg" /></i>
+										<i className="priceformula_icon straight"><Image alt="" width="400" height="400" src="/images/icon-straight.svg" /></i>
 										<div className="input_group w_140px mr_6">
 											<div className="text_group small">
 												<label>최종 판매가</label>
@@ -462,9 +463,9 @@ export default function Settings() {
 										<p>하단 이미지</p>
 									</div>
 									<div className="item">
-										<img src="/images/eximg_01.png" />
+										<Image alt="" width="400" height="400" src="/images/eximg_01.png" />
 										<div className="btn_group round_small">
-											<button className="fill_gray"><img src="/images/icon-16-close.svg" />삭제</button>
+											<button className="fill_gray"><Image alt="" width="400" height="400" src="/images/icon-16-close.svg" />삭제</button>
 										</div>
 									</div>
 								</div>
@@ -594,7 +595,7 @@ export default function Settings() {
 												<td className="week_upload pl_30">60</td>
 												<td className="del pl_30">
 													<div className="btn_group round_small">
-														<button className="fill_gray"><img src="/images/icon-16-close.svg" />직원 삭제</button>
+														<button className="fill_gray"><Image alt="" width="400" height="400" src="/images/icon-16-close.svg" />직원 삭제</button>
 													</div>
 												</td>
 											</tr>
@@ -607,7 +608,7 @@ export default function Settings() {
 												<td className="week_upload pl_30">360</td>
 												<td className="del pl_30">
 													<div className="btn_group round_small">
-														<button className="fill_gray"><img src="/images/icon-16-close.svg" />직원 삭제</button>
+														<button className="fill_gray"><Image alt="" width="400" height="400" src="/images/icon-16-close.svg" />직원 삭제</button>
 													</div>
 												</td>
 											</tr>

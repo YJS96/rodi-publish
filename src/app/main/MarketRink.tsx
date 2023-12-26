@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 
 export default function MarketRink() {
   return (
@@ -36,7 +37,7 @@ export default function MarketRink() {
 							</div>
 							<div className="btn_group mt_24">
 								{/* <!--<button className="fill_black">API 연동하기</button>--> */}
-								<button className="fill_main"  ><i><img src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>
+								<button className="fill_main"  ><i><Image alt="" width="400" height="400" src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>
 							</div>
 						</div>
 					</div>
@@ -215,7 +216,7 @@ export default function MarketRink() {
 							</div>
 							<div className="btn_group mt_24">
 								<button className="fill_black">API 연동하기</button>
-								{/* <!--<button className="fill_main"><i><img src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
+								{/* <!--<button className="fill_main"><i><Image alt="" width="400" height="400" src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
 							</div>
 						</div>
 					</div>
@@ -263,7 +264,7 @@ export default function MarketRink() {
 							</div>
 							<div className="btn_group mt_24">
 								<button className="fill_black">API 연동하기</button>
-								{/* <!--<button className="fill_main"><i><img src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
+								{/* <!--<button className="fill_main"><i><Image alt="" width="400" height="400" src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
 							</div>
 						</div>
 					</div>
@@ -296,7 +297,7 @@ export default function MarketRink() {
 							</div>
 							<div className="btn_group mt_24">
 								<button className="fill_black">API 연동하기</button>
-								{/* <!--<button className="fill_main"><i><img src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
+								{/* <!--<button className="fill_main"><i><Image alt="" width="400" height="400" src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
 							</div>
 						</div>
 					</div>
@@ -322,7 +323,7 @@ export default function MarketRink() {
 							</div>
 							<div className="btn_group mt_24">
 								<button className="fill_black">API 연동하기</button>
-								{/* <!--<button className="fill_main"><i><img src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
+								{/* <!--<button className="fill_main"><i><Image alt="" width="400" height="400" src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
 							</div>
 						</div>
 					</div>
@@ -345,7 +346,7 @@ export default function MarketRink() {
 							</div>
 							<div className="btn_group mt_24">
 								<button className="fill_black">API 연동하기</button>
-								{/* <!--<button className="fill_main"><i><img src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
+								{/* <!--<button className="fill_main"><i><Image alt="" width="400" height="400" src="/images/icon-20-roundcheck-white.svg" /></i>연동 완료</button>--> */}
 							</div>
 						</div>
 					</div>
@@ -454,7 +455,7 @@ export default function MarketRink() {
 							</div>
 							<div className="btn_group mt_24">
 								<button className="fill_black">API 연동하기</button>
-								{/* <!--<button className="fill_main"><i><img src="/images/icon-20-roundcheck-white.svg"</i>연동 완료</button>--> */}
+								{/* <!--<button className="fill_main"><i><Image alt="" width="400" height="400" src="/images/icon-20-roundcheck-white.svg"</i>연동 완료</button>--> */}
 							</div>
 						</div>
 					</div>

@@ -8,7 +8,7 @@ import OrderList from "./OrderList";
 import MarketRink from "./MarketRink";
 import Notice from "./Notice";
 import Settings from "./Settings";
-import Link from "next/link";
+import Image from "next/image"
 
 export default function MainLayout() {
   const [currentTab, setCurrentTab] = useState<String>("mainTab")
@@ -25,13 +25,13 @@ export default function MainLayout() {
             <div className="header_area">
               <div className="left">
                 <div onClick={() => handleTab("mainTab")} className="logo">
-                  <img src="/images/logo.svg" />
+                  <Image alt="" width="400" height="400" src="/images/logo.svg" />
                 </div>
               </div>
               <div className="right">
                 <div className="profile_area btn-open">
                   <div className="img">
-                    <img src="/images/profile_img.png" />
+                    <Image alt="" width="400" height="400" src="/images/profile_img.png" />
                   </div>
                   <div className="info">
                     <div className="id">rodi@rodi.com</div>
