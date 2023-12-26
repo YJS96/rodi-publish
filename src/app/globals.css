@@ -4601,7 +4601,7 @@ input::placeholder {
 }
 .login_wrap .login_btn_group button.naver_login {
 	background: #03C75A;
-	color:#fff;
+	color:#FFFFFF;
 }
 
 .naver_login {
@@ -4615,7 +4615,7 @@ input::placeholder {
 	font-weight: 600;
 	margin-bottom:12px;
 	background: #03C75A;
-	color:#FFFFFF;
+	color:#FFFFFF !important;
 }
 
 .kakao_login {
